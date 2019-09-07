@@ -14,6 +14,13 @@ const Home = () => (
 
     <div className='hero'>
       <h1 className='title'>Yet Another Company LLC</h1>
+
+      <div className='resume'>
+      Check out my 
+        <Link href="https://jonaylor.xyz/resume">
+          <a> Resume</a>
+        </Link>
+      </div>
     </div>
 
     <style jsx>{`
@@ -29,6 +36,20 @@ const Home = () => (
         font-size: 48px;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
+      }
+      .resume {
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+        padding-top: 80px;
+        line-height: 1.15;
+        font-size: 32px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+      }
+      
+      a {
+        text-decoration: none;
       }
     `}</style>
   </div>
