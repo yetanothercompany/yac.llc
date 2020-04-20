@@ -15,13 +15,13 @@ const Home = () => (
     <div className='hero'>
       <h1 className='title'>Yet Another Company LLC</h1>
 
-      <div className='resume'>
+      <div className='subheader'>
       Check out my 
         <Link href="https://jonaylor.xyz/resume">
           <a> Resume</a>
         </Link>
       </div>
-      <div className='email'>
+      <div className='subheader'>
         And contact me at
         <Link href="mailto:yetanothercompanyllc@gmail.com">
           <a> yetanothercompanyllc@gmail.com </a>
@@ -43,7 +43,7 @@ const Home = () => (
         font-family: 'Open Sans', sans-serif;
         text-align: center;
       }
-      .resume {
+      .subheader {
         display: inline-block;
         margin: 0;
         width: 100%;
