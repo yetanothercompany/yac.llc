@@ -21,6 +21,12 @@ const Home = () => (
           <a> Resume</a>
         </Link>
       </div>
+      <div className='email'>
+        And contact me at
+        <Link href="mailto:yetanothercompanyllc@gmail.com">
+          <a> yetanothercompanyllc@gmail.com </a>
+        </Link>
+      </div>
     </div>
 
     <style jsx>{`
